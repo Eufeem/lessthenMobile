@@ -1,0 +1,53 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Itzel Ameyali 
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container"><br>
+    <ion-grid>
+
+      <ion-row>
+        <ion-col>
+          <ion-text color="primary">
+            <h1>Afourum</h1>
+          </ion-text>
+          <ion-card-subtitle>Un proyectito para ser feliz. :)</ion-card-subtitle>
+        </ion-col>
+      </ion-row>
+
+      <ion-row style="margin-top: 80px; margin-bottom: 80px;">
+        <ion-col>
+          <img src="https://cdn-icons-png.flaticon.com/512/2909/2909821.png" alt="" style="height: 200px;">
+        </ion-col>
+      </ion-row><br>
+
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" color="success" [routerLink]="['/main']">
+            <ion-icon name="log-in-outline"></ion-icon>&nbsp; Ingresar
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" color="primary" [routerLink]="['/register']">
+            <ion-icon name="planet-outline"></ion-icon>&nbsp; Registrarse
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+    
+  </div>
+</ion-content>
